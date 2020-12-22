@@ -1,8 +1,8 @@
 from math import ceil
 from textwrap import wrap
-from app.modules.calendar import get_time, get_delta_time
-from app.modules.request import get_url, get_url_file
-from app.modules.image_util import get_tools, get_font, paste_on_backgrounds, \
+from .calendar import get_time, get_delta_time
+from .request import get_url, get_url_file
+from .image_util import get_tools, get_font, paste_on_backgrounds, \
     Image, resize_ratio, align_center, fit_text
 
 

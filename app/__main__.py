@@ -1,7 +1,7 @@
 from sanic import Sanic
 from sanic.response import file
 from asyncio import get_event_loop
-from .tasks import FortiteAPI
+from app.modules.tracker import FortiteAPI
 
 app = Sanic(__name__)
 
@@ -34,12 +34,14 @@ async def cdn_files(request, filename):
 
 
 if __name__ == "__main__":
-    loop = get_event_loop()
+    LOOP = get_event_loop()
+    FNAPI = FortiteAPI()
 
-    loop.create_task(FortiteAPI().track_itemshop())
-    loop.create_task(FortiteAPI().track_news())
-    loop.create_task(
+    LOOP.create_task(FNAPI.track_itemshop())
+    LOOP.create_task(FNAPI.track_news())
+
+    LOOP.create_task(
         app.create_server(return_asyncio_server=True, access_log=False)
     )
 
-    loop.run_forever()
+    LOOP.run_forever()

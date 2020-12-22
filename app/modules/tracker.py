@@ -2,8 +2,8 @@
 import os
 import json
 from asyncio import create_task, sleep
-from app.modules.request import get_url
-from app.modules.json_creator import save_itemshop_json, save_news_json
+from .request import get_url
+from .json_creator import save_itemshop_json, save_news_json
 from .image_generators import generate_itemshop, generate_news
 
 
