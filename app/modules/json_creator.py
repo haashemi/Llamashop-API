@@ -24,7 +24,7 @@ async def save_itemshop_json(raw_data: dict):
     # Add images
     for design in os.listdir("./contents"):
         if design.endswith(f"itemshop.png"):
-            content["images"].append(f"./contents/{design}")
+            content["images"].append(f"http://127.0.0.1:8000/cdn/{design}")
 
     # Add raw data from fortnite-api to ["contents"]
     content["content"]["featured"] = raw_data["featured"]["entries"]
@@ -35,35 +35,6 @@ async def save_itemshop_json(raw_data: dict):
 
     # Save the new data
     with open(f"contents/data/itemshop.json", "w", encoding="utf-8") as f:
-        json.dump(content, f, indent=4)
-
-
-async def update_mreged_news():
-    """
-    Updates the main news file to decrease the number of requests
-    It collects all saved news files, then merge them into one file
-    """
-    content = {
-        "status": 200,
-        "hash": "",
-        "brnews": {},
-        "creativenews": {},
-        "stwnews": {}
-    }
-
-    # Add all game modes data to the content variable
-    with open("./contents/data/brnews.json", "r", encoding="utf-8") as f:
-        content["brnews"] = json.load(f)
-    with open("./contents/data/creativenews.json", "r", encoding="utf-8") as f:
-        content["creativenews"] = json.load(f)
-    with open("./contents/data/stwnews.json", "r", encoding="utf-8") as f:
-        content["stwnews"] = json.load(f)
-
-    # Add hash code of the content
-    content["hash"] = hash(str(content))
-
-    # Save the new data
-    with open("./contents/data/news.json", "w", encoding="utf-8") as f:
         json.dump(content, f, indent=4)
 
 
@@ -90,7 +61,7 @@ async def save_news_json(mode: str, raw_data: dict) -> dict:
     # Add images
     for design in os.listdir("./contents"):
         if design.endswith(f"{mode}.png"):
-            content["images"].append(f"./contents/{design}")
+            content["images"].append(f"http://127.0.0.1:8000/cdn/{design}")
 
     # Add News tabs
     if mode == "stwnews":
@@ -121,5 +92,3 @@ async def save_news_json(mode: str, raw_data: dict) -> dict:
     # Save the new data
     with open(f"contents/data/{mode}.json", "w", encoding="utf-8") as f:
         json.dump(content, f, indent=4)
-
-    await update_mreged_news()
