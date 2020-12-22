@@ -1,1 +1,3 @@
 __pycache__
+contents/*.png
+contents/data/*.json
