@@ -19,12 +19,7 @@ async def news_gamemode(request, gamemode):
 
     :gamemode -> stw / br / creative
     """
-    if gamemode == "br":
-        return await file(f"./contents/data/brnews.json")
-    elif gamemode == "creative":
-        return await file(f"./contents/data/creativenews.json")
-    elif gamemode == "stw":
-        return await file(f"./contents/data/stwnews.json")
+    return await file(f"./contents/data/{gamemode}news.json")
 
 
 @app.route('/cdn/<filename>')
