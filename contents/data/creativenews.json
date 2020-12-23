@@ -1,0 +1,24 @@
+{
+    "status": 200,
+    "hash": 2645478782571178386,
+    "video": "https://cdn.fortnite-api.com/news/v2/137482101f1548111316c2d91468daebd7e51d92.gif",
+    "images": [
+        "http://127.0.0.1:8000/cdn/baccreativenews.png",
+        "http://127.0.0.1:8000/cdn/glxcreativenews.png",
+        "http://127.0.0.1:8000/cdn/lbpcreativenews.png",
+        "http://127.0.0.1:8000/cdn/ptrcreativenews.png",
+        "http://127.0.0.1:8000/cdn/vlbcreativenews.png"
+    ],
+    "content": [
+        {
+            "id": "Marvel Royalty & Warriors Pack",
+            "title": "Black Panther Arrives",
+            "image": "https://cdn2.unrealengine.com/15br-marvelrmt-motd-1920x1080-1920x1080-9cc3fa855522.jpg"
+        },
+        {
+            "id": "Spy Within: Steamboat links to Playlist_Creative_LTM_Spy_Steam",
+            "title": "Creative Showcase",
+            "image": "https://cdn2.unrealengine.com/15cm-spywithin-steamboat-motd-1920x1080-1920x1080-3e9ce5a338f6.jpg"
+        }
+    ]
+}

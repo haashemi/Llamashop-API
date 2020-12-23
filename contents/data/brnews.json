@@ -1,0 +1,34 @@
+{
+    "status": 200,
+    "hash": -9126663950449232051,
+    "video": "https://cdn.fortnite-api.com/news/v2/8b25136702b44f54cc567fccdf56be26ee88e458.gif",
+    "images": [
+        "http://127.0.0.1:8000/cdn/bacbrnews.png",
+        "http://127.0.0.1:8000/cdn/glxbrnews.png",
+        "http://127.0.0.1:8000/cdn/lbpbrnews.png",
+        "http://127.0.0.1:8000/cdn/ptrbrnews.png",
+        "http://127.0.0.1:8000/cdn/vlbbrnews.png"
+    ],
+    "content": [
+        {
+            "id": "Marvel Royalty & Warriors Pack",
+            "title": "Black Panther Arrives",
+            "image": "https://cdn2.unrealengine.com/15br-marvelrmt-motd-1920x1080-1920x1080-9cc3fa855522.jpg"
+        },
+        {
+            "id": "Wakanda Forever Quests",
+            "title": "Wakanda Forever",
+            "image": "https://cdn2.unrealengine.com/15br-wakandaforever-motd-1920x1080-1920x1080-61edf6f1537b.jpg"
+        },
+        {
+            "id": "Pickaxe Frenzy links to Playlist_Nickel_Evergreen_Duos",
+            "title": "Operation Snowdown LTM",
+            "image": "https://cdn2.unrealengine.com/15br-snowdown-pickaxefrenzy-motd-1920x1080-1920x1080-07676dd0a678.jpg"
+        },
+        {
+            "id": "POWER UP WITH DISNEY+",
+            "title": "POWER UP WITH DISNEY+",
+            "image": "https://cdn2.unrealengine.com/fn-social-disneyplus-cpmarvel-motd-large-1920x1080-eca7627ae2b7.jpg"
+        }
+    ]
+}

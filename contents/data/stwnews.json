@@ -1,0 +1,29 @@
+{
+    "status": 200,
+    "hash": 8015730587534160968,
+    "video": null,
+    "images": [
+        "http://127.0.0.1:8000/cdn/bacstwnews.png",
+        "http://127.0.0.1:8000/cdn/glxstwnews.png",
+        "http://127.0.0.1:8000/cdn/lbpstwnews.png",
+        "http://127.0.0.1:8000/cdn/ptrstwnews.png",
+        "http://127.0.0.1:8000/cdn/vlbstwnews.png"
+    ],
+    "content": [
+        {
+            "adspace": "EVENT STORE!",
+            "title": "Pain Train",
+            "image": "https://cdn2.unrealengine.com/11stw-paintrain-motd-1024x512-558827609.jpg"
+        },
+        {
+            "adspace": "Seasonal Event",
+            "title": "Super Heated",
+            "image": "https://cdn2.unrealengine.com/stw07-motd-gingerblaster-1024x512-558827696.jpg"
+        },
+        {
+            "adspace": "SEASONAL VENTURES!",
+            "title": "Winterfest Ventures",
+            "image": "https://cdn2.unrealengine.com/frostnite-faceoff-motd-1024x512-1024x512-591203491.jpg"
+        }
+    ]
+}

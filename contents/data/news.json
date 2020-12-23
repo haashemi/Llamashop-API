@@ -1,0 +1,86 @@
+{
+    "status": 200,
+    "hash": -2990988389612601454,
+    "brnews": {
+        "status": 200,
+        "hash": 830316151717783981,
+        "video": "https://cdn.fortnite-api.com/news/v2/d1decedcd2942cdbbfacaa313ba36cbaa57fac89.gif",
+        "images": [
+            "./contents/bacbrnews.png",
+            "./contents/glxbrnews.png",
+            "./contents/lbpbrnews.png",
+            "./contents/ptrbrnews.png",
+            "./contents/vlbbrnews.png"
+        ],
+        "content": [
+            {
+                "id": "Wakanda Forever Quests",
+                "title": "Wakanda Forever",
+                "image": "https://cdn2.unrealengine.com/15br-wakandaforever-motd-1920x1080-1920x1080-61edf6f1537b.jpg"
+            },
+            {
+                "id": "Blinky and Cozy Jonesy",
+                "title": "New Holiday Outfits",
+                "image": "https://cdn2.unrealengine.com/15br-snowdown-jonesyblinky-social-motd-1920x1080-1920x1080-2b0f6567cfbb.jpg"
+            },
+            {
+                "id": "Pickaxe Frenzy links to Playlist_Nickel_Evergreen_Duos",
+                "title": "Operation Snowdown LTM",
+                "image": "https://cdn2.unrealengine.com/15br-snowdown-pickaxefrenzy-motd-1920x1080-1920x1080-07676dd0a678.jpg"
+            }
+        ]
+    },
+    "creativenews": {
+        "status": 200,
+        "hash": 8803708592599314932,
+        "video": "https://cdn.fortnite-api.com/news/v2/628f8314908e3316ebedb708023750ed327a7820.gif",
+        "images": [
+            "./contents/baccreativenews.png",
+            "./contents/glxcreativenews.png",
+            "./contents/lbpcreativenews.png",
+            "./contents/ptrcreativenews.png",
+            "./contents/vlbcreativenews.png"
+        ],
+        "content": [
+            {
+                "id": "Spy Within: Steamboat links to Playlist_Creative_LTM_Spy_Steam",
+                "title": "Creative Showcase",
+                "image": "https://cdn2.unrealengine.com/15cm-spywithin-steamboat-motd-1920x1080-1920x1080-3e9ce5a338f6.jpg"
+            },
+            {
+                "id": "Blinky and Cozy Jonesy",
+                "title": "New Holiday Outfits",
+                "image": "https://cdn2.unrealengine.com/15br-snowdown-jonesyblinky-social-motd-1920x1080-1920x1080-2b0f6567cfbb.jpg"
+            }
+        ]
+    },
+    "stwnews": {
+        "status": 200,
+        "hash": 381602642198508066,
+        "video": null,
+        "images": [
+            "./contents/bacstwnews.png",
+            "./contents/glxstwnews.png",
+            "./contents/lbpstwnews.png",
+            "./contents/ptrstwnews.png",
+            "./contents/vlbstwnews.png"
+        ],
+        "content": [
+            {
+                "adspace": "EVENT STORE!",
+                "title": "Pain Train",
+                "image": "https://cdn2.unrealengine.com/11stw-paintrain-motd-1024x512-558827609.jpg"
+            },
+            {
+                "adspace": "Seasonal Event",
+                "title": "Super Heated",
+                "image": "https://cdn2.unrealengine.com/stw07-motd-gingerblaster-1024x512-558827696.jpg"
+            },
+            {
+                "adspace": "STW BUNDLE!",
+                "title": "Powerhouse Bundle",
+                "image": "https://cdn2.unrealengine.com/powerhouse-pack-motd-1024x512-1024x512-558939642.jpg"
+            }
+        ]
+    }
+}
