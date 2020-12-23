@@ -37,9 +37,13 @@ Linux:
 
 ---
 
+## Small note:
+* ### Feel free to **opening issues** or **PL** for development of this project :D 
+
 ## Known issues
 * First of all, it's not optimized
 * Some function have a really bad code
+
 
 <!-- ## License
 - aiohttp (Apache) [License](https://github.com/aio-libs/aiohttp/blob/6a5ab96bd9cb404b4abfd5160fe8f34a29d941e5/LICENSE.txt) -->
