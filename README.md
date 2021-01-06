@@ -37,9 +37,6 @@ Linux:
 
 ---
 
-## Small note:
-* ### Feel free to **opening issues** or **Pull Request** for development of this project :D 
-
-## Known issues
+## Known issues 
 * First of all, it's not optimized
 * Some function have a really bad code
